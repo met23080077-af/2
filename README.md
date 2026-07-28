@@ -12,3 +12,11 @@ Tính năng|Test Case|Kết quả mong đợi
 |Tìm kiếm (Bác sĩ|Khoa)|"Nhập từ khóa (ví dụ: ""Tim mạch"")"|Hiện ra đúng danh sách bác sĩ chuyên khoa Tim|
 |Đặt lịch khám | Tư vấn|"Chọn ngày| giờ và bấm ""Đặt lịch"""|Hệ thống gửi thông báo xác nhận lịch thành công|
 |Tính năng AI (nếu có)|Nhập triệu chứng bệnh|"AI trả ra kết quả dự đoán phù hợp| không bị đơ|lag"|
+
+| ID | Chức Năng | Các Bước Thực Hiện | Kết Quả Mong Đợi | Ưu Tiên | Trạng Thái |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| **FN-01** | Đăng ký tài khoản | Nhập SĐT hợp lệ + Mật khẩu + Mã OTP | Tạo tài khoản thành công, nhận SMS OTP | Critical | `PASS` |
+| **FN-02** | Đăng nhập sai | Nhập sai Mật khẩu quá 5 lần | Khóa tài khoản tạm thời trong 15 phút | High | `PASS` |
+| **FN-03** | Tìm kiếm Bác sĩ | Nhập từ khóa *"Tim mạch"* vào thanh tìm kiếm | Trả về danh sách Bác sĩ thuộc chuyên khoa Tim mạch | High | `PASS` |
+| **FN-04** | Đặt lịch khám | Chọn Bác sĩ -> Chọn Giờ -> Bấm *"Đặt Lịch"* | Tạo lịch thành công, gửi mail/nhắn tin xác nhận | Critical | `PASS` |
+| **FN-05** | Chẩn đoán AI | Nhập danh sách triệu chứng (Sốt, ho, đau đầu) | AI phân tích và hiển thị gợi ý bệnh lý phù hợp | Critical | `PASS` |
