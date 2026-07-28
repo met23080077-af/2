@@ -13,7 +13,7 @@ Tính năng|Test Case|Kết quả mong đợi
 |Đặt lịch khám | Tư vấn|"Chọn ngày| giờ và bấm ""Đặt lịch"""|Hệ thống gửi thông báo xác nhận lịch thành công|
 |Tính năng AI (nếu có)|Nhập triệu chứng bệnh|"AI trả ra kết quả dự đoán phù hợp| không bị đơ|lag"|
 
-| ID | Chức Năng | Các Bước Thực Hiện | Kết Quả Mong Đợi | Ưu Tiên | Trạng Thái |
+| Chức Năng | Các Bước Thực Hiện | Kết Quả Mong Đợi | Ưu Tiên | Trạng Thái |
 | :---: | :--- | :--- | :---: | :---: |
 | Đăng ký tài khoản | Nhập SĐT hợp lệ + Mật khẩu + Mã OTP | Tạo tài khoản thành công, nhận SMS OTP | Critical | `PASS` |
 | Đăng nhập sai | Nhập sai Mật khẩu quá 5 lần | Khóa tài khoản tạm thời trong 15 phút | High | `PASS` |
