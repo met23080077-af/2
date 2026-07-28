@@ -7,12 +7,6 @@ Công việc của tester:
 -Report Bug: Khi thấy hệ thống bị lỗi, chụp ảnh|quay video lại và gửi cho lập trình viên (Developer) sửa.
 -Re-test: Sau khi Lập trình viên sửa xong, Tester bấm lại để xác nhận lỗi đã hết.
 
-Tính năng|Test Case|Kết quả mong đợi
-|Đăng ký | Đăng nhập|Nhập email|SĐT + Mật khẩu|"Đăng nhập thành công| vào đúng trang cá nhân"|
-|Tìm kiếm (Bác sĩ|Khoa)|"Nhập từ khóa (ví dụ: ""Tim mạch"")"|Hiện ra đúng danh sách bác sĩ chuyên khoa Tim|
-|Đặt lịch khám | Tư vấn|"Chọn ngày| giờ và bấm ""Đặt lịch"""|Hệ thống gửi thông báo xác nhận lịch thành công|
-|Tính năng AI (nếu có)|Nhập triệu chứng bệnh|"AI trả ra kết quả dự đoán phù hợp| không bị đơ|lag"|
-
 | Chức Năng | Các Bước Thực Hiện | Kết Quả Mong Đợi | Ưu Tiên | Trạng Thái |
 | :---: | :--- | :--- | :---: | :---: |
 | Đăng ký tài khoản | Nhập SĐT hợp lệ + Mật khẩu + Mã OTP | Tạo tài khoản thành công, nhận SMS OTP | Critical | `PASS` |
